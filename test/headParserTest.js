@@ -140,7 +140,6 @@ test["should throw option needs argument error when no value is given"] = functi
     parser.parse();
     assert.fail();
   } catch (error) {
-    // console.log(error);
     assert.equal(error, expectedError);
   }
 };
@@ -153,7 +152,6 @@ test["should throw illegal line count when invalid value is given"] = function()
     parser.parse();
     assert.fail();
   } catch (error) {
-    // console.log(error);
     assert.equal(error, expectedError);
   }
 };
@@ -166,7 +164,6 @@ test["should throw illegal byte count when invalid value is given"] = function()
     parser.parse();
     assert.fail();
   } catch (error) {
-    // console.log(error);
     assert.equal(error, expectedError);
   }
 };
@@ -179,7 +176,6 @@ test["should throw illegal line count when line and byte options and invalid val
     parser.parse();
     assert.fail();
   } catch (error) {
-    // console.log(error);
     assert.equal(error, expectedError);
   }
 };

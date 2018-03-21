@@ -142,8 +142,7 @@ const main = function(allArgument, fs, inputStream, outputStream) {
       dealWithStdInputOrOutput(lineOrByteCountOption, inputStream, outputStream);
     }
   } catch (error) {
-    console.log(error);
-    // outputStream.write(error);
+    outputStream.write(error);
   }
 };
 

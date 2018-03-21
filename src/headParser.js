@@ -159,22 +159,6 @@ Parser.prototype = {
     }
   },
 
-  // parse: function() {
-  //   for (var argsIndex = 0; argsIndex < this.arguments.length; argsIndex++) {
-  //     let previousArgument = this.arguments[argsIndex - 1];
-  //     let argument = this.arguments[argsIndex];
-  //     if (isAnyFileExist(this.files)) {
-  //       this.pushIntoFiles(argsIndex);
-  //     } else if (startsWithHyphen(argument)) {
-  //       this.dealWithHyphenValue(argsIndex, argument);
-  //     } else {
-  //       this.pushIntoFiles(argsIndex);
-  //     }
-  //   }
-  //   cantCombineLineAndByteErr(this.options);
-  //   this.setDefaultValue();
-  // },
-
   parse: function() {
     let self = this;
     this.arguments.reduce(function(options, element, index) {
@@ -204,7 +188,10 @@ Parser.prototype = {
 }
 
 module.exports = Parser;
+<<<<<<< HEAD
 // let input = process.argv.slice(2);
 // let parser = new Parser(input);
 // parser.parse()
 // console.log(parser);
+=======
+>>>>>>> first commit
