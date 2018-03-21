@@ -188,10 +188,3 @@ Parser.prototype = {
 }
 
 module.exports = Parser;
-<<<<<<< HEAD
-// let input = process.argv.slice(2);
-// let parser = new Parser(input);
-// parser.parse()
-// console.log(parser);
-=======
->>>>>>> first commit
